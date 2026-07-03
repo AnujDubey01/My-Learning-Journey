@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstraputility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--    Navbar    -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+     <img src="./assets/myntra-logo.jpeg" alt=""  class = "logo">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="d-flex w-100 align-items-center">
+
+    <!-- Left Logo already outside -->
+
+    <!-- Center Nav Links -->
+    <ul class="navbar-nav mx-3 d-flex flex-row gap-4">
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">MEN</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">WOMEN</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">KIDS</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">HOME</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">BEAUTY</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">GENZ</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">STUDIO</a></li>
+    </ul>
+
+    <!-- Search Bar -->
+    <form class="flex-grow-1 mx-3" role="search">
+      <div class="input-group">
+        <span class="input-group-text bg-light border-0">
+          <i class="fa fa-search"></i>
+        </span>
+        <input class="form-control border-0 bg-light" type="search" placeholder="Search for products, brands and more">
+      </div>
+    </form>
+
+    <!-- Right Icons -->
+    <ul class="d-flex gap-4 list-unstyled mb-0 align-items-center">
+      <li class="text-center">
+        <i class="fa-regular fa-user fs-5"></i>
+        <p class="mb-0 small fw-bold">Profile</p>
+      </li>
+      <li class="text-center">
+        <i class="fa-regular fa-heart fs-5"></i> 
+        <p class="mb-0 small fw-bold">Wishlist</p>
+      </li>
+      <li class="text-center">
+        <i class="fa-solid fa-bag-shopping fs-5"></i>
+        <p class="mb-0 small fw-bold">Bag</p>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+  </div>
+</nav>
+
+<Section class="section1">
+
+    <div class="banner-img">
+    <img src="./assets/Screenshot 2025-10-07 022952.png" alt="">
+    <img src="./assets/Screenshot 2025-10-07 023032.png" alt="">
+    <img src="./assets/Screenshot 2025-10-07 023756.png" alt="">
+    </div>
+
+ <!-- Carousel container -->
+<div id="productCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <h3 class="my-3 ms-3">Featured Products</h3>
+
+  <!-- Dots (Indicators) -->
+  <div class="carousel-indicators" id="carouselIndicators"></div>
+
+  <!-- Slides (will be generated dynamically) -->
+  <div class="carousel-inner" id="carouselInner"></div>
+
+  <!-- Navigation buttons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<style>
+  .fixed-img {
+    height: 180px;
+    object-fit: cover;
+  }
+</style>
+
+<!-- Bootstrap link -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+<div class="celeb">
+    <img src="./assets/celebration.jpg" alt="">
+</div>
+
+</Section>
+
+
+<!-- footer section begins here -->
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-section">
+      <h4>ONLINE SHOPPING</h4>
+      <ul>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Beauty</a></li>
+        <li><a href="#">Genz</a></li>
+        <li><a href="#">Gift Cards</a></li>
+        <li><a href="#">Myntra Insider</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>CUSTOMER POLICIES</h4>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">T&amp;C</a></li>
+        <li><a href="#">Terms Of Use</a></li>
+        <li><a href="#">Track Orders</a></li>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">Cancellation</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Grievance Redressal</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>EXPERIENCE MYNTRA APP ON MOBILE</h4>
+      <div class="app-links">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+      </div>
+      <h4>KEEP IN TOUCH</h4>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <div class="guarantee">
+        <img src="https://cdn-icons-png.flaticon.com/512/5610/5610944.png" alt="Original" class="icon">
+        <p><strong>100% ORIGINAL</strong> guarantee for all products at myntra.com</p>
+      </div>
+      <div class="return-policy">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828665.png" alt="Return" class="icon">
+        <p><strong>Return within 14 days</strong> of receiving your order</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <h4>POPULAR SEARCHES</h4>
+    <p>
+      Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Blazers For Men | Handbags |
+      Ladies Watches | Bags | Sport Shoes | Reebok Shoes | Puma Shoes | Boxers | Wallets | Tops |
+      Earrings | Fastrack Watches | Kurtis | Nike | Smart Watches | Titan Watches | Designer Blouse |
+      Gowns | Rings | Cricket Shoes | Forever 21 | Eye Makeup | Photo Frames | Punjabi Suits |
+      Bikini | Myntra Fashion Show | Lipstick | Saree | Watches | Dresses | Lehenga | Nike Shoes |
+      Goggles | Bras | Suit | Chinos | Shoes | Adidas Shoes | Woodland Shoes | Jewellery | Designers Sarees
+    </p>
+  </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

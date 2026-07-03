@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Timezone Finder</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><i class="fas fa-clock"></i> Timezone Finder</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Your Current Timezone</h2>
+      <div class="card-content">
+        <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="Globe" />
+        <!-- <p>Latitude: 40.7128, Longitude: -74.0060<br/>Timezone: Eastern Standard Time</p> -->
+         <p id="getLocate"></p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Find Timezone by Address</h2>
+      <div class="card-content">
+        <input type="text" placeholder="Enter your address here" />
+        <button >Retrieve Timezone</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Timezone for Entered Address</h2>
+      <div class="card-content">
+        <img src="https://cdn-icons-png.flaticon.com/512/854/854894.png" alt="Compass" />
+        <p id="output">  
+            <!-- text to displayes dynamically  -->
+        </p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Timezone Finder © 2023</p>
+    <div class="footer-icons">
+      <i class="fas fa-phone"></i>
+      <i class="fas fa-envelope"></i>
+      <i class="fas fa-globe"></i>
+    </div>
+  </footer>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>

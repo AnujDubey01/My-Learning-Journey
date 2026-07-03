@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+    height: 40px;
+    width: 60px;
+}
+
+.nav-images {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+}
+
+.nav-img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.section1 {
+    /* background: rgb(216, 214, 210); */
+    /* height: 120vh; */
+     padding: 0 30px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+  .card {
+    min-width: 200px;
+    max-width: 270px;
+    flex: 0 0 auto;
+  }
+.card img {
+    height: 320px;
+    width: 280;
+}
+  .fixed-img {
+    height: 80px;              /* same height for all */
+    width: 100%;                /* take full width of card */
+    object-fit: cover;          /* crop extra part, maintain aspect ratio */
+    border-bottom: 1px solid #eee;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+  .card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  .card-text {
+    color: #444;
+    font-size: 0.9rem;
+  }
+
+
+  .carousel-indicators [data-bs-target] {
+  background-color: #000;  /* or #fff */
+}
+
+.celeb img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 40px 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1 1 220px;
+}
+
+.footer-section h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 6px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+}
+
+.footer-section ul li a:hover {
+  color: #ff3f6c;
+}
+
+.app-links img {
+  width: 120px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.social-links a {
+  color: #555;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.social-links a:hover {
+  color: #ff3f6c;
+}
+
+.guarantee, .return-policy {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.footer-bottom h4 {
+  font-size: 13px;
+  color: #555;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #777;
+  line-height: 1.6;
+}
+5
